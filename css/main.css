@@ -1,0 +1,36 @@
+.postcode-lookup-wrapper {
+	
+}
+
+/* Main form */
+.postcode-lookup-form {
+	
+}
+.flexbox-postcode-lookup {
+	width: 100%;
+	display: table;
+	padding: 1em 0 0;
+}
+.postcode-text-div, .postcode-button-div {
+	display: table-cell;
+	width: 100%;
+}
+.postcode-text {
+	width: 100%;
+	padding: .5em 1em;
+}
+.postcode-button { 
+	padding: .5em 1em;
+	white-space: nowrap;
+	margin: 0 0 0 1em;
+}
+/* END Main form */
+
+/* Telephone validation */
+.FieldError {
+	background-color: #ff0000;
+}
+.FieldOk {
+	background-color: #00ff00;
+}
+/* END Telephone validation */
